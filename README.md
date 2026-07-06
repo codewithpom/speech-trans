@@ -43,3 +43,4 @@ The artifact will be available in the workflow run summary once complete.
 - You must manually sign/install the IPA in Sideloadly or your local Apple device provisioning flow.
 - The app requires local network permission on the iPhone; approve when prompted.
 - To find the iPhone IP address: Settings → Wi-Fi → (info icon) → IP Address.
+- After pushing, the GitHub Actions artifact can be downloaded from the workflow run summary.
