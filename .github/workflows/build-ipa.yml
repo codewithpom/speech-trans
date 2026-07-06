@@ -18,12 +18,12 @@ jobs:
 
       - name: Resolve Swift packages
         run: |
-          xcodebuild -project WhisperServer/WhisperServer.xcodeproj -resolvePackageDependencies
+          xcodebuild -workspace WhisperServer/WhisperServer.xcworkspace -scheme WhisperServer -resolvePackageDependencies
 
       - name: Build iOS app bundle
         run: |
           xcodebuild \
-            -project WhisperServer/WhisperServer.xcodeproj \
+            -workspace WhisperServer/WhisperServer.xcworkspace \
             -scheme WhisperServer \
             -sdk iphoneos \
             -configuration Release \
