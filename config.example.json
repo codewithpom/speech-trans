@@ -1,9 +1,9 @@
 {
-  "iphone_ip": "192.168.1.100",
-  "port": 8080,
-  "hotkey": "right ctrl",
-  "sample_rate": 44100,
-  "channels": 1,
-  "max_duration_seconds": 20,
-  "request_timeout_seconds": 15
+    "iphone_ip": "192.168.1.100",
+    "port": 8080,
+    "hotkey": "right ctrl",
+    "sample_rate": 44100,
+    "channels": 1,
+    "max_duration_seconds": 20,
+    "request_timeout_seconds": 15
 }
