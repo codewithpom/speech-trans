@@ -1,0 +1,5 @@
+sounddevice>=0.4.6
+soundfile>=0.12.1
+numpy>=1.26.0
+keyboard>=0.13.5
+requests>=2.31.0

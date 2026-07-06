@@ -1,0 +1,205 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 56;
+  objects = {
+    1D6058900D05DD3D006BFB54 /* Project object */ = {
+      isa = PBXProject;
+      attributes = {
+        LastUpgradeCheck = 1670;
+      };
+      buildConfigurationList = 1D6058910D05DD3D006BFB54 /* Build configuration list for PBXProject "WhisperServer" */;
+      compatibilityVersion = "Xcode 16.0";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (
+        en,
+      );
+      mainGroup = 1D6058880D05DD3D006BFB54;
+      packageReferences = (
+        1D6058A00D05DD3D006BFB54 /* argmax-oss-swift */,
+        1D6058A10D05DD3D006BFB54 /* Swifter */,
+      );
+      productRefGroup = 1D6058890D05DD3D006BFB54;
+      projectDirPath = "";
+      projectRoot = "";
+      targets = (
+        1D6058920D05DD3D006BFB54 /* WhisperServer */,
+      );
+    };
+    1D6058880D05DD3D006BFB54 /* WhisperServer */ = {
+      isa = PBXGroup;
+      children = (
+        1D6058930D05DD3D006BFB54 /* WhisperServer */,
+      );
+      sourceTree = "<group>";
+      name = WhisperServer;
+    };
+    1D6058890D05DD3D006BFB54 /* Products */ = {
+      isa = PBXGroup;
+      children = (
+        1D605899D0D05DD3D006BFB54 /* WhisperServer.app */,
+      );
+      name = Products;
+      sourceTree = "<group>";
+    };
+    1D6058930D05DD3D006BFB54 /* WhisperServer */ = {
+      isa = PBXGroup;
+      children = (
+        1D6058960D05DD3D006BFB54 /* App.swift */,
+        1D6058970D05DD3D006BFB54 /* ContentView.swift */,
+        1D6058980D05DD3D006BFB54 /* ServerManager.swift */,
+        1D6058990D05DD3D006BFB54 /* Info.plist */,
+        1D60589A0D05DD3D006BFB54 /* Assets.xcassets */,
+        1D60589B0D05DD3D006BFB54 /* Base.lproj */,
+      );
+      path = WhisperServer;
+      sourceTree = "<group>";
+    };
+    1D6058960D05DD3D006BFB54 /* App.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = App.swift; path = WhisperServer/App.swift; sourceTree = "<group>"; };
+    1D6058970D05DD3D006BFB54 /* ContentView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = WhisperServer/ContentView.swift; sourceTree = "<group>"; };
+    1D6058980D05DD3D006BFB54 /* ServerManager.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ServerManager.swift; path = WhisperServer/ServerManager.swift; sourceTree = "<group>"; };
+    1D6058990D05DD3D006BFB54 /* Info.plist */ = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = WhisperServer/Info.plist; sourceTree = "<group>"; };
+    1D60589A0D05DD3D006BFB54 /* Assets.xcassets */ = { isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = WhisperServer/Assets.xcassets; sourceTree = "<group>"; };
+    1D60589B0D05DD3D006BFB54 /* Base.lproj */ = { isa = PBXGroup; children = (1D60589C0D05DD3D006BFB54 /* LaunchScreen.storyboard */,); name = Base.lproj; path = WhisperServer/Base.lproj; sourceTree = "<group>"; };
+    1D60589C0D05DD3D006BFB54 /* LaunchScreen.storyboard */ = { isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = WhisperServer/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+    1D605899D0D05DD3D006BFB54 /* WhisperServer.app */ = { isa = PBXFileReference; explicitFileType = wrapper.application; name = WhisperServer.app; path = WhisperServer.app; sourceTree = "<build>"; };
+
+    1D6058920D05DD3D006BFB54 /* WhisperServer */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 1D605891D0D05DD3D006BFB54 /* Build configuration list for PBXNativeTarget "WhisperServer" */;
+      buildPhases = (
+        1D60589E0D05DD3D006BFB54 /* Sources */,
+      );
+      buildRules = ();
+      dependencies = ();
+      name = WhisperServer;
+      productName = WhisperServer;
+      productReference = 1D605899D0D05DD3D006BFB54 /* WhisperServer.app */;
+      productType = "com.apple.product-type.application";
+      packageProductDependencies = (
+        1D6058A30D05DD3D006BFB54 /* WhisperKit */,
+        1D6058A40D05DD3D006BFB54 /* Swifter */,
+      );
+    };
+
+    1D60589E0D05DD3D006BFB54 /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        1D60589F0D05DD3D006BFB54 /* App.swift in Sources */,
+        1D6058A00D05DD3D006BFB54 /* ContentView.swift in Sources */,
+        1D6058A10D05DD3D006BFB54 /* ServerManager.swift in Sources */,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+    1D60589F0D05DD3D006BFB54 /* App.swift in Sources */ = { isa = PBXBuildFile; fileRef = 1D6058960D05DD3D006BFB54 /* App.swift */; };
+    1D6058A00D05DD3D006BFB54 /* ContentView.swift in Sources */ = { isa = PBXBuildFile; fileRef = 1D6058970D05DD3D006BFB54 /* ContentView.swift */; };
+    1D6058A10D05DD3D006BFB54 /* ServerManager.swift in Sources */ = { isa = PBXBuildFile; fileRef = 1D6058980D05DD3D006BFB54 /* ServerManager.swift */; };
+
+    1D6058910D05DD3D006BFB54 /* Build configuration list for PBXProject "WhisperServer" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        1D60589120D05DD3D006BFB54 /* Debug */,
+        1D60589130D05DD3D006BFB54 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    1D60589120D05DD3D006BFB54 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        DEVELOPMENT_TEAM = "";
+        INFOPLIST_FILE = WhisperServer/Info.plist;
+        PRODUCT_BUNDLE_IDENTIFIER = com.example.WhisperServer;
+        PRODUCT_NAME = WhisperServer;
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1";
+        IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+      };
+      name = Debug;
+    };
+    1D60589130D05DD3D006BFB54 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        DEVELOPMENT_TEAM = "";
+        INFOPLIST_FILE = WhisperServer/Info.plist;
+        PRODUCT_BUNDLE_IDENTIFIER = com.example.WhisperServer;
+        PRODUCT_NAME = WhisperServer;
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1";
+        IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+        CODE_SIGNING_ALLOWED = NO;
+        CODE_SIGNING_REQUIRED = NO;
+      };
+      name = Release;
+    };
+
+    1D605891D0D05DD3D006BFB54 /* Build configuration list for PBXNativeTarget "WhisperServer" */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        1D605891E0D05DD3D006BFB54 /* Debug */,
+        1D605891F0D05DD3D006BFB54 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    1D605891E0D05DD3D006BFB54 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        CODE_SIGNING_ALLOWED = NO;
+        CODE_SIGNING_REQUIRED = NO;
+        INFOPLIST_FILE = WhisperServer/Info.plist;
+        PRODUCT_BUNDLE_IDENTIFIER = com.example.WhisperServer;
+        PRODUCT_NAME = WhisperServer;
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1";
+        IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+      };
+      name = Debug;
+    };
+    1D605891F0D05DD3D006BFB54 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        CODE_SIGNING_ALLOWED = NO;
+        CODE_SIGNING_REQUIRED = NO;
+        INFOPLIST_FILE = WhisperServer/Info.plist;
+        PRODUCT_BUNDLE_IDENTIFIER = com.example.WhisperServer;
+        PRODUCT_NAME = WhisperServer;
+        SWIFT_VERSION = 5.0;
+        TARGETED_DEVICE_FAMILY = "1";
+        IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+      };
+      name = Release;
+    };
+
+    1D6058A00D05DD3D006BFB54 /* argmax-oss-swift */ = {
+      isa = XCRemoteSwiftPackageReference;
+      repositoryURL = "https://github.com/argmaxinc/argmax-oss-swift.git";
+      requirement = {
+        kind = "version";
+        minimumVersion = "0.9.0";
+      };
+    };
+    1D6058A10D05DD3D006BFB54 /* Swifter */ = {
+      isa = XCRemoteSwiftPackageReference;
+      repositoryURL = "https://github.com/httpswift/swifter.git";
+      requirement = {
+        kind = "version";
+        minimumVersion = "1.6.0";
+      };
+    };
+    1D6058A30D05DD3D006BFB54 /* WhisperKit */ = {
+      isa = XCSwiftPackageProductDependency;
+      package = 1D6058A00D05DD3D006BFB54 /* argmax-oss-swift */;
+      productName = WhisperKit;
+    };
+    1D6058A40D05DD3D006BFB54 /* Swifter */ = {
+      isa = XCSwiftPackageProductDependency;
+      package = 1D6058A10D05DD3D006BFB54 /* Swifter */;
+      productName = Swifter;
+    };
+  };
+  rootObject = 1D6058900D05DD3D006BFB54 /* Project object */;
+}

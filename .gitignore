@@ -1,0 +1,23 @@
+# Xcode
+*.xcworkspace
+*.xcuserdata
+*.xccheckout
+*.xcscmblueprint
+*.xcodeproj/project.xcworkspace
+.DS_Store
+build/
+DerivedData/
+*.ipa
+*.xcuserstate
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*~
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
