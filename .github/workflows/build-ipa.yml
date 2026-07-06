@@ -14,7 +14,7 @@ jobs:
       - name: Set up Xcode
         uses: maxim-lobanov/setup-xcode@v1.7.0
         with:
-          xcode-version: '16.2'
+          xcode-version: '16.1'
 
       - name: Resolve Swift packages
         run: |
