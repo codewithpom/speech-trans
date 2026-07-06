@@ -1,4 +1,5 @@
 ﻿import Foundation
+import Darwin
 import WhisperKit
 import Swifter
 
